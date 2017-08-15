@@ -10,14 +10,11 @@
 
 @implementation Repos
 
--(instancetype)initWithName:(NSString *)name url:(NSURL *)url andSize:(NSNumber *)size
+-(instancetype)initWithName:(NSString *)name
 {
-    self = [super init];
-    if (self)
+    if (self = [super init])
     {
         self.name = name;
-        self.url = url;
-        self.size = size;
     }
     return self;
 }

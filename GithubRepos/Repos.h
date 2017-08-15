@@ -11,9 +11,7 @@
 @interface Repos : NSObject
 
 @property (nonatomic) NSString *name;
-@property (nonatomic) NSURL *url;
-@property (nonatomic) NSNumber *size;
 
--(instancetype)initWithName:(NSString *)name url:(NSURL *)url andSize:(NSNumber *)size;
+-(instancetype)initWithName:(NSString *)name;
 
 @end
